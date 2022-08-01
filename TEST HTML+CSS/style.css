@@ -1,0 +1,211 @@
+/*GENERAL SETTINGS*/
+
+body{
+    background-color:#ecfeff;
+}
+img{
+    max-width: 60%;
+    max-height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+
+}
+
+
+/*TEXT HOVER*/
+
+.mountains{
+    position: absolute;
+    bottom:7rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: #71717a;
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+
+}
+.mountains:hover{
+    color:#18181b;
+    font-weight: 700;
+
+}
+.houses{
+    position: absolute;
+    bottom:7rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: #f59e0b;
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.houses:hover{
+    color:#92400e;
+    font-weight: 700;
+
+}
+.waterfall{
+    position: absolute;
+    bottom:7rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: #7dd3fc;
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.waterfall:hover{
+    color:#075985;
+    font-weight: 700;
+
+}
+.tree{
+    position: absolute;
+    bottom:7rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: #34d399;
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.tree:hover{
+    color:#065f46;
+    font-weight: 700;
+
+}
+/*ANIMATION SETTINGS*/
+
+.container{
+    -webkit-animation: slideIn 4s forwards;
+    -moz-animation: slideIn 4s forwards;
+     animation: slideIn 4s forwards;
+
+}
+
+
+
+@-webkit-keyframes slideIn {
+    0% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@-moz-keyframes slideIn {
+    0% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*RESPONSIVE*/
+
+@media  screen and (min-width:320px)  {
+    .mountains{
+        bottom:8rem;
+    }
+    .waterfall{
+        bottom:8rem;
+    }
+    .houses {
+        bottom:8rem;
+    }
+    .tree{
+        bottom:8rem;
+    }
+}
+@media screen and (min-width:481px)  {
+    .mountains{
+        bottom:10rem;
+    }
+    .waterfall{
+        bottom:10rem;
+    }
+    .houses {
+        bottom:10rem;
+    }
+    .tree{
+        bottom:10rem;
+    }
+}
+@media screen and (min-width:641px)  {
+    .mountains{
+        bottom:15rem;
+    }
+    .waterfall{
+        bottom:15rem;
+    }
+    .houses {
+        bottom:15rem;
+    }
+    .tree{
+        bottom:15rem;
+    }
+}
+@media screen and (min-width:961px)  {
+    .mountains{
+        bottom:7rem;
+    }
+    .waterfall{
+        bottom:7rem;
+    }
+    .houses {
+        bottom:7rem;
+    }
+    .tree{
+        bottom:7rem;
+    }
+}
+@media screen and (min-width:1025px) {
+    .mountains{
+        bottom:10rem;
+    }
+    .waterfall{
+        bottom:10rem;
+    }
+    .houses {
+        bottom:10rem;
+    }
+    .tree{
+        bottom:10rem;
+    }
+}
+@media screen and (min-width:1281px) {
+    .mountains {
+        bottom:20rem;
+    }
+    .waterfall {
+        bottom:20rem;
+    }
+    .houses {
+        bottom:20rem;
+    }
+    .tree {
+        bottom:20rem;
+    }
+}
